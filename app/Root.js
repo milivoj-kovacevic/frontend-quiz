@@ -40,7 +40,7 @@ const Root = () => (
             <Route exact path="/" component={Home} />
             <Route exact path="/about" component={About} />
             <Route exact path="/create" component={Create} />
-            <Route exact path="/show/:id" component={Show} />
+            <Route path="/show/:id" component={Show} />
           </Switch>
         </App>
       </ConnectedRouter>
